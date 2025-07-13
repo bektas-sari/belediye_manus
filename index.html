@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belediye - Ana Sayfa</title>
+    <meta name="description" content="Modern ve şeffaf belediyecilik anlayışıyla vatandaşlarımıza hizmet ediyoruz.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <img src="images/logo.png" alt="Belediye Logo" class="logo">
+                    <span class="brand-text">Belediye</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Ana Sayfa</a></li>
+                    <li><a href="#about" class="nav-link">Hakkımızda</a></li>
+                    <li><a href="#services" class="nav-link">Hizmetler</a></li>
+                    <li><a href="#news" class="nav-link">Haberler</a></li>
+                    <li><a href="#projects" class="nav-link">Projeler</a></li>
+                    <li><a href="#contact" class="nav-link">İletişim</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="images/hero-bg.jpg" alt="Şehir Manzarası">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Modern ve Şeffaf Belediyecilik</h1>
+                <p class="hero-subtitle">Vatandaşlarımızın yaşam kalitesini artırmak için çalışıyoruz. Şeffaf, hesap verebilir ve katılımcı yönetim anlayışımızla geleceği birlikte inşa ediyoruz.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Hizmetlerimiz</a>
+                    <a href="#contact" class="btn btn-secondary">İletişim</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Services -->
+    <section class="quick-services">
+        <div class="container">
+            <div class="quick-services-grid">
+                <div class="service-card">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Borç Sorgulama</h3>
+                    <p>Emlak vergisi ve diğer borçlarınızı sorgulayın</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Başvuru Takibi</h3>
+                    <p>Başvurularınızın durumunu takip edin</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Etkinlik Takvimi</h3>
+                    <p>Yaklaşan etkinlikleri görüntüleyin</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Acil Durum</h3>
+                    <p>Acil durumlar için hızlı erişim</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hakkımızda</h2>
+                <p>Modern belediyecilik anlayışıyla vatandaşlarımıza hizmet ediyoruz</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Belediye Başkanı Mesajı</h3>
+                    <p>Değerli hemşehrilerim, belediyemiz olarak sizlere en iyi hizmeti sunmak için gece gündüz çalışıyoruz. Şeffaflık, hesap verebilirlik ve katılımcı yönetim anlayışımızla şehrimizi daha yaşanabilir hale getirmek için var gücümüzle çalışmaktayız.</p>
+                    <p>Çevre dostu projelerimiz, sosyal belediyecilik anlayışımız ve teknolojik altyapımızla vatandaşlarımızın yaşam kalitesini artırmayı hedefliyoruz. Her zaman kapımız açık, her zaman yanınızdayız.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">150,000</span>
+                            <span class="stat-label">Nüfus</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">25</span>
+                            <span class="stat-label">Mahalle</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Personel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/services-bg.jpg" alt="Belediye Hizmetleri">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hizmetlerimiz</h2>
+                <p>Vatandaşlarımıza sunduğumuz kapsamlı hizmetler</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>İmar ve Şehircilik</h3>
+                    <p>İmar planları, yapı ruhsatları ve şehir planlaması hizmetleri</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Çevre ve Temizlik</h3>
+                    <p>Çevre koruma, atık yönetimi ve temizlik hizmetleri</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Sosyal Hizmetler</h3>
+                    <p>Sosyal yardım, kültürel etkinlikler ve toplum merkezleri</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3>Ulaşım ve Altyapı</h3>
+                    <p>Yol yapımı, bakımı ve altyapı geliştirme projeleri</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Zabıta Hizmetleri</h3>
+                    <p>Kamu düzeni, işyeri denetimleri ve güvenlik hizmetleri</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Sağlık Hizmetleri</h3>
+                    <p>Sağlık ocakları, ambulans hizmetleri ve sağlık taramaları</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news">
+        <div class="container">
+            <div class="section-header">
+                <h2>Haberler ve Duyurular</h2>
+                <p>Güncel haberler ve önemli duyurular</p>
+            </div>
+            <div class="news-grid">
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/hero-bg.jpg" alt="Haber Görseli">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">15 Temmuz 2025</span>
+                        <h3>Yeni Park Projesi Başladı</h3>
+                        <p>Şehrimizin en büyük park projesi olan Millet Parkı'nın yapımına başlandı. 50 dönümlük alanda modern oyun alanları ve spor tesisleri yer alacak.</p>
+                        <a href="#" class="read-more">Devamını Oku</a>
+                    </div>
+                </article>
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/services-bg.jpg" alt="Haber Görseli">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">12 Temmuz 2025</span>
+                        <h3>Çevre Temizlik Kampanyası</h3>
+                        <p>Vatandaşlarımızın katılımıyla düzenlenen çevre temizlik kampanyası büyük ilgi gördü. 500 gönüllü ile şehrimizi temizledik.</p>
+                        <a href="#" class="read-more">Devamını Oku</a>
+                    </div>
+                </article>
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/hero-bg.jpg" alt="Haber Görseli">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">10 Temmuz 2025</span>
+                        <h3>Dijital Belediyecilik Uygulaması</h3>
+                        <p>Mobil uygulamamız ile artık tüm belediye hizmetlerine telefonunuzdan erişebilirsiniz. Uygulama mağazalarından ücretsiz indirin.</p>
+                        <a href="#" class="read-more">Devamını Oku</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projelerimiz</h2>
+                <p>Şehrimizin geleceği için hayata geçirdiğimiz projeler</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <h3>Akıllı Şehir Projesi</h3>
+                    <p>IoT sensörleri ve akıllı sistemlerle şehrimizi dijitalleştiriyoruz</p>
+                    <div class="project-progress">
+                        <span>%75 Tamamlandı</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <h3>Yeşil Şehir Projesi</h3>
+                    <p>Daha fazla yeşil alan ve sürdürülebilir çevre için çalışıyoruz</p>
+                    <div class="project-progress">
+                        <span>%60 Tamamlandı</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <h3>Ulaşım Master Planı</h3>
+                    <p>Modern ulaşım altyapısı ile trafik sorununu çözüyoruz</p>
+                    <div class="project-progress">
+                        <span>%40 Tamamlandı</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 40%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>İletişim</h2>
+                <p>Bizimle iletişime geçin, her zaman yanınızdayız</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Adres</h4>
+                            <p>Cumhuriyet Mahallesi, Belediye Caddesi No:1<br>06000 Ankara/Türkiye</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefon</h4>
+                            <p>+90 312 123 45 67<br>+90 312 123 45 68</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-posta</h4>
+                            <p>info@belediye.gov.tr<br>iletisim@belediye.gov.tr</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Çalışma Saatleri</h4>
+                            <p>Pazartesi - Cuma: 08:00 - 17:00<br>Cumartesi: 09:00 - 13:00</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Adınız Soyadınız" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="E-posta Adresiniz" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Telefon Numaranız">
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Konu Seçiniz</option>
+                            <option value="sikayet">Şikayet</option>
+                            <option value="oneri">Öneri</option>
+                            <option value="bilgi">Bilgi Talebi</option>
+                            <option value="diger">Diğer</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mesajınız" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="images/logo.png" alt="Belediye Logo" class="footer-logo">
+                        <span class="footer-brand-text">Belediye</span>
+                    </div>
+                    <p>Modern ve şeffaf belediyecilik anlayışıyla vatandaşlarımıza hizmet ediyoruz.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <ul>
+                        <li><a href="#about">Hakkımızda</a></li>
+                        <li><a href="#services">Hizmetler</a></li>
+                        <li><a href="#news">Haberler</a></li>
+                        <li><a href="#projects">Projeler</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>E-Belediye</h4>
+                    <ul>
+                        <li><a href="#">Borç Sorgulama</a></li>
+                        <li><a href="#">Online Ödeme</a></li>
+                        <li><a href="#">Başvuru Takibi</a></li>
+                        <li><a href="#">Şikayet/Öneri</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>İletişim</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Cumhuriyet Mah. Belediye Cad. No:1</li>
+                        <li><i class="fas fa-phone"></i> +90 312 123 45 67</li>
+                        <li><i class="fas fa-envelope"></i> info@belediye.gov.tr</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Belediye. Tüm hakları saklıdır.</p>
+                <div class="footer-links">
+                    <a href="#">Gizlilik Politikası</a>
+                    <a href="#">Kullanım Şartları</a>
+                    <a href="#">KVKK</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
